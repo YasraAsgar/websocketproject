@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chat with us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="websockets/CEPEngine_extensions.css">
+    <style>
+        
+        .chat {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 150px;
+            padding: 50px;
+            border: 5px solid rgb(54, 57, 58);
+            border-radius: 10px;
+            background-color: rgb(221, 217, 217);
+        }
+
+        #chatMessages {
+            list-style:decimal;
+            padding: 0;
+            margin: 0;
+            overflow-y:scroll;
+            max-height: 300px;
+        }
+        #im1{
+            border-radius: 50px;
+            margin-right: 10px;
+            height: 100px;
+            width: 100px;
+            float: right;
+
+         
+        }
+
+    </style>
+</head>
+
+<body style="background: url('/Users/yasrakhan/Desktop/622551.webp')" id="#index_background" >
+   <img id="im1" src="/Users/yasrakhan/Desktop/360_F_406921774_w48dWkIrsixpA2tcqJCB1Z3ULWxw0uLm.jpg">
+    <h1 id="#extensionTitle " style="background-color: #01070a; color: #fff; padding: 10px;float: none;border-radius: 50px;">Chat with us</h1>
+    <div class="chat">
+        <ul id="chatMessages"></ul>
+        <input  type="text" id="chatInput" placeholder="  Send you thought" style="height: 30px;width: 190px;border-radius: 50px;">
+        <button id="sendChat">Send</button>
+    </div>
+    <script type="text/javascript" src="CSInterface.js"></script>
+    <script type="text/javascript" src="indexx.js"></script>
+</body>
+
+</html>
